@@ -97,11 +97,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "List the operations for the provider.": {
-            "$ref": "./examples/Operations_List.json"
-          }
-        },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
         }
@@ -142,11 +137,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Lists the Fleet resources in a subscription.": {
-            "$ref": "./examples/Fleets_ListBySub.json"
-          }
-        },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
         }
@@ -182,11 +172,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Lists the Fleet resources in a resource group.": {
-            "$ref": "./examples/Fleets_ListByResourceGroup.json"
           }
         },
         "x-ms-pageable": {
@@ -234,11 +219,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Gets a Fleet resource.": {
-            "$ref": "./examples/Fleets_Get.json"
           }
         }
       },
@@ -321,11 +301,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Creates a Fleet resource with a long running operation.": {
-            "$ref": "./examples/Fleets_CreateOrUpdate.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "azure-async-operation"
         },
@@ -403,14 +378,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Patch tags of a Fleet during Update.": {
-            "$ref": "./examples/Fleets_PatchTags.json"
-          },
-          "Update a Fleet.": {
-            "$ref": "./examples/Fleets_Update.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "original-uri"
         },
@@ -479,11 +446,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Deletes a Fleet resource asynchronously with a long running operation.": {
-            "$ref": "./examples/Fleets_Delete.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
         },
@@ -536,11 +498,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Lists the AutoUpgradeProfile resources by fleet.": {
-            "$ref": "./examples/AutoUpgradeProfiles_ListByFleet.json"
           }
         },
         "x-ms-pageable": {
@@ -598,11 +555,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Gets an AutoUpgradeProfile resource.": {
-            "$ref": "./examples/AutoUpgradeProfiles_Get.json"
           }
         }
       },
@@ -699,11 +651,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Create an AutoUpgradeProfile.": {
-            "$ref": "./examples/AutoUpgradeProfiles_CreateOrUpdate.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "azure-async-operation"
         },
@@ -777,11 +724,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Delete an AutoUpgradeProfile resource.": {
-            "$ref": "./examples/AutoUpgradeProfiles_Delete.json"
           }
         },
         "x-ms-long-running-operation-options": {
@@ -859,11 +801,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "AutoUpgradeProfileOperations_GenerateUpdateRun": {
-            "$ref": "./examples/AutoUpgradeProfileOperations_GenerateUpdateRun.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "azure-async-operation"
         },
@@ -910,11 +847,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "List the ClusterMeshProfile resources by fleet.": {
-            "$ref": "./examples/ClusterMeshProfiles_ListByFleet.json"
           }
         },
         "x-ms-pageable": {
@@ -972,11 +904,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Get a ClusterMeshProfile resource.": {
-            "$ref": "./examples/ClusterMeshProfiles_Get.json"
           }
         }
       },
@@ -1069,11 +996,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Create or update a ClusterMeshProfile.": {
-            "$ref": "./examples/ClusterMeshProfiles_CreateOrUpdate.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "original-uri"
         },
@@ -1147,11 +1069,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Delete an ClusterMeshProfile resource.": {
-            "$ref": "./examples/ClusterMeshProfiles_Delete.json"
           }
         },
         "x-ms-long-running-operation-options": {
@@ -1234,11 +1151,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Apply a ClusterMeshProfile": {
-            "$ref": "./examples/ClusterMeshProfiles_Apply.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
         },
@@ -1296,11 +1208,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Lists the Gates of a Fleet.": {
-            "$ref": "./examples/Gates_ListByFleet.json"
-          }
-        },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
         }
@@ -1356,11 +1263,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Gets a Gate resource.": {
-            "$ref": "./examples/Gates_Get.json"
           }
         }
       },
@@ -1454,11 +1356,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Updates a Gate resource.": {
-            "$ref": "./examples/Gates_Update.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
         },
@@ -1506,11 +1403,6 @@
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
           }
-        },
-        "x-ms-examples": {
-          "Lists the user credentials of a Fleet.": {
-            "$ref": "./examples/Fleets_ListCredentialsResult.json"
-          }
         }
       }
     },
@@ -1554,11 +1446,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "FleetManagedNamespaces_ListByFleet": {
-            "$ref": "./examples/FleetManagedNamespaces_ListByFleet.json"
           }
         },
         "x-ms-pageable": {
@@ -1616,11 +1503,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "FleetManagedNamespaces_Get": {
-            "$ref": "./examples/FleetManagedNamespaces_Get.json"
           }
         }
       },
@@ -1717,11 +1599,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "FleetManagedNamespaces_CreateOrUpdate": {
-            "$ref": "./examples/FleetManagedNamespaces_CreateOrUpdate.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "azure-async-operation"
         },
@@ -1809,11 +1686,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "FleetManagedNamespaces_Update": {
-            "$ref": "./examples/FleetManagedNamespaces_Update.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
         },
@@ -1889,11 +1761,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "FleetManagedNamespaces_Delete": {
-            "$ref": "./examples/FleetManagedNamespaces_Delete.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
         },
@@ -1951,11 +1818,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Lists the members of a Fleet.": {
-            "$ref": "./examples/FleetMembers_ListByFleet.json"
-          }
-        },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
         }
@@ -2011,11 +1873,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Gets a FleetMember resource.": {
-            "$ref": "./examples/FleetMembers_Get.json"
           }
         }
       },
@@ -2108,11 +1965,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Creates a FleetMember resource with a long running operation.": {
-            "$ref": "./examples/FleetMembers_Create.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "azure-async-operation"
         },
@@ -2200,11 +2052,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Updates a FleetMember resource synchronously.": {
-            "$ref": "./examples/FleetMembers_Update.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "original-uri"
         },
@@ -2283,11 +2130,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Deletes a FleetMember resource asynchronously with a long running operation.": {
-            "$ref": "./examples/FleetMembers_Delete.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
         },
@@ -2340,11 +2182,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Lists the UpdateRun resources by fleet.": {
-            "$ref": "./examples/UpdateRuns_ListByFleet.json"
           }
         },
         "x-ms-pageable": {
@@ -2402,11 +2239,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Gets an UpdateRun resource.": {
-            "$ref": "./examples/UpdateRuns_Get.json"
           }
         }
       },
@@ -2499,11 +2331,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Create an UpdateRun.": {
-            "$ref": "./examples/UpdateRuns_CreateOrUpdate.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "azure-async-operation"
         },
@@ -2580,11 +2407,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Delete an updateRun resource.": {
-            "$ref": "./examples/UpdateRuns_Delete.json"
           }
         },
         "x-ms-long-running-operation-options": {
@@ -2676,11 +2498,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Skips one or more member/group/stage/afterStageWait(s) of an UpdateRun.": {
-            "$ref": "./examples/UpdateRuns_Skip.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
         },
@@ -2759,11 +2576,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Starts an UpdateRun.": {
-            "$ref": "./examples/UpdateRuns_Start.json"
           }
         },
         "x-ms-long-running-operation-options": {
@@ -2846,11 +2658,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Stops an UpdateRun.": {
-            "$ref": "./examples/UpdateRuns_Stop.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
         },
@@ -2903,11 +2710,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "List the FleetUpdateStrategy resources by fleet.": {
-            "$ref": "./examples/UpdateStrategies_ListByFleet.json"
           }
         },
         "x-ms-pageable": {
@@ -2965,11 +2767,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Get a FleetUpdateStrategy resource.": {
-            "$ref": "./examples/UpdateStrategies_Get.json"
           }
         }
       },
@@ -3062,11 +2859,6 @@
             }
           }
         },
-        "x-ms-examples": {
-          "Create a FleetUpdateStrategy.": {
-            "$ref": "./examples/UpdateStrategies_CreateOrUpdate.json"
-          }
-        },
         "x-ms-long-running-operation-options": {
           "final-state-via": "azure-async-operation"
         },
@@ -3143,11 +2935,6 @@
             "schema": {
               "$ref": "../../../../../../common-types/resource-management/v5/types.json#/definitions/ErrorResponse"
             }
-          }
-        },
-        "x-ms-examples": {
-          "Delete a FleetUpdateStrategy resource.": {
-            "$ref": "./examples/UpdateStrategies_Delete.json"
           }
         },
         "x-ms-long-running-operation-options": {
@@ -5905,6 +5692,14 @@
           },
           "x-ms-identifiers": [
             "name"
+          ]
+        },
+        "memberSelector": {
+          "$ref": "#/definitions/MemberSelector",
+          "description": "Select the members of the stage.\n  * Only key/value pairs with the `=` operator are accepted in the label selector.\n  * If empty or not specified, no Fleet members will be selected for the stage.\nSetting both `memberSelector` and `groups` is invalid.",
+          "x-ms-mutability": [
+            "read",
+            "create"
           ]
         },
         "afterStageWaitInSeconds": {
